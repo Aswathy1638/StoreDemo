@@ -8,5 +8,6 @@ namespace StoreDemo.Models
         public string Name { get; set; }
         [JsonIgnore]
         public List<Product> Products { get; set; }
+      
     }
 }
